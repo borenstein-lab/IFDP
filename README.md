@@ -12,5 +12,7 @@ Simple one command pipeline:
 Outputs:
 
 [OUTPUT] - The diamond mapping output file
+
 [OUTPUT]_counts - The enzyme counts
+
 [OUTPUT]_IFDP - The IFDP profile 
