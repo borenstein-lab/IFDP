@@ -1,15 +1,17 @@
 # IFDP
 
-Requirments:
+![](Figure1.svg)
+
+### Requirments:
 - diamond (database was built with v0.9.9)
 - numpy
 - pandas
 
-Simple one command pipeline:
+### Simple one command pipeline:
 
 ./run_sample.sh [DATABASE] [INPUT] [OUTPUT]
 
-Outputs:
+### Outputs:
 
 [OUTPUT] - The diamond mapping output file
 
