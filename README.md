@@ -22,3 +22,11 @@ The simple framework allows to generate the Inferred Fiber Degradtion Profile (I
 [OUTPUT]_counts - The enzyme counts
 
 [OUTPUT]_IFDP - The IFDP profile name
+
+
+
+### Tutorial
+
+For easy testing of the framework,  we have uplaoded three Prevotella copri genomes (which are relatively small in size, memory and run time requirements) as simple use cases. To run any of the genomes just use this command, while changing the genome file name.
+
+```./run_sample.sh ec_full.dmnd GCF_002075875.1_Bbif1898B_genomic.fna output```
