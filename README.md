@@ -9,7 +9,7 @@
 
 ### Simple one command pipeline:
 
-./run_sample.sh [DATABASE] [INPUT] [OUTPUT]
+```./run_sample.sh [DATABASE] [INPUT] [OUTPUT]```
 
 ### Outputs:
 
