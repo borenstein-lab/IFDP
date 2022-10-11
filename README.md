@@ -14,16 +14,20 @@ The simple framework allows to generate the Inferred Fiber Degradtion Profile (I
 ### Installation
 
 1.Install dependencies:
+
 ```conda install numpy pandas diamond ## install depandicies ```
 
 2.Download the repo:
+
 ```git clone https://github.com/borenstein-lab/IFDP.git```
 
 3.Extract the databaase and build it with diamond:
-```gunzip ec_full.fasta.gz
+
+```gunzip ec_full.fasta.gz;
 diamond makedb --in ec_full.fasta.gz -d ec_full
 ```
 4.Test the installation by running this example:
+
 ```./run_sample.sh ec_full.dmnd GCF_002075875.1_Bbif1898B_genomic.fna output```
 
 5. run the pipeline using a simple one line command:
