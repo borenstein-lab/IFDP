@@ -45,8 +45,10 @@ Three outputs will be visible following the completion of the run:
 <img width="998" alt="image" src="https://user-images.githubusercontent.com/33667593/195006139-0cdd5e34-288d-4a05-81ac-4f6606a75a00.png">
 
 [OUTPUT]_counts - The enzyme counts
+
 <img width="142" alt="image" src="https://user-images.githubusercontent.com/33667593/195006384-14533260-e71b-458c-b264-9a7a4a99b68e.png">
 
 [OUTPUT]_IFDP - The IFDP profile 
+
 <img width="275" alt="image" src="https://user-images.githubusercontent.com/33667593/195006511-28cf0713-3f6f-47f1-a903-e406a51faae9.png">
 
