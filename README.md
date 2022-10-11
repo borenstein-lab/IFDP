@@ -34,13 +34,13 @@ diamond makedb --in ec_full.fasta.gz -d ec_full
 4.Test the installation by running this example:
 
 ```
-./run_sample.sh ec_full.dmnd GCF_002075875.1_Bbif1898B_genomic.fna output
+run_sample.sh -d ec_full.dmnd -i GCF_002075875.1_Bbif1898B_genomic.fna -o output
 ```
 
 5. Run the pipeline using a simple one line command:
 
 ```
-./run_sample.sh [DATABASE] [INPUT] [OUTPUT]
+run_sample.sh -d [DATABASE] -i [INPUT] -o [OUTPUT]
 ```
 6. If you would like to run the pipeline from any directory, add this line to your .bashrc file or run it before running the pipeline:
 
@@ -53,14 +53,16 @@ export PATH=$PATH:/home/labs/elinav/yotamco/IFDP2/
 For easy testing of the framework,  we have uplaoded three genomes (which are relatively small in size, memory and run time requirements) as simple use cases. To run any of the genomes just use this command, while changing the genome file name.
 
 ```
-./run_sample.sh ec_full.dmnd GCF_002075875.1_Bbif1898B_genomic.fna output
+run_sample.sh -d ec_full.dmnd -i GCF_002075875.1_Bbif1898B_genomic.fna -o output
 ```
 
 In order to run and explore the results, a user must specify the database he wishes to use the input fasta/fastq file and an output name for the diamond output.
 
 ```
-./run_sample.sh [DATABASE] [INPUT] [OUTPUT]
+run_sample.sh -d [DATABASE] -i [INPUT] -o [OUTPUT]
 ```
+
+you can also specify the amount of threads using -p argument. 
 
 Three outputs will be visible following the completion of the run:
 
