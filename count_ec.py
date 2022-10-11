@@ -15,7 +15,7 @@ counts.loc[-counts["EC number"].str.contains(";")].rename(columns={0:"counts"}).
 import numpy as np
 
 all_enzymes = pd.read_csv(dirname+'/Fiber_Enzyme_matrix.csv',index_col=0)
-enzyme_counts = pd.read_csv(dirname+"/"+sys.argv[-1],index_col=0)
+enzyme_counts = pd.read_csv(sys.argv[-1],index_col=0)
 inter = np.intersect1d(enzyme_counts.index,all_enzymes.index)
 enzyme_counts_filtered = enzyme_counts.loc[inter]
 
