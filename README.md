@@ -15,34 +15,47 @@ The simple framework allows to generate the Inferred Fiber Degradtion Profile (I
 
 1.Install dependencies:
 
-```conda install numpy pandas diamond ## install depandicies ```
+```
+conda install numpy pandas diamond ## install depandicies
+```
 
 2.Download the repo:
 
-```git clone https://github.com/borenstein-lab/IFDP.git```
+```
+git clone https://github.com/borenstein-lab/IFDP.git
+```
 
 3.Extract the databaase and build it with diamond:
 
-```gunzip ec_full.fasta.gz;
+```
+gunzip ec_full.fasta.gz;
 diamond makedb --in ec_full.fasta.gz -d ec_full
 ```
 4.Test the installation by running this example:
 
-```./run_sample.sh ec_full.dmnd GCF_002075875.1_Bbif1898B_genomic.fna output```
+```
+./run_sample.sh ec_full.dmnd GCF_002075875.1_Bbif1898B_genomic.fna output
+```
 
 5. run the pipeline using a simple one line command:
 
-```./run_sample.sh [DATABASE] [INPUT] [OUTPUT]```
+```
+./run_sample.sh [DATABASE] [INPUT] [OUTPUT]
+```
 
 ### Tutorial output and testing
 
 For easy testing of the framework,  we have uplaoded three genomes (which are relatively small in size, memory and run time requirements) as simple use cases. To run any of the genomes just use this command, while changing the genome file name.
 
-```./run_sample.sh ec_full.dmnd GCF_002075875.1_Bbif1898B_genomic.fna output```
+```
+./run_sample.sh ec_full.dmnd GCF_002075875.1_Bbif1898B_genomic.fna output
+```
 
 In order to run and explore the results, a user must specify the database he wishes to use the input fasta/fastq file and an output name for the diamond output.
 
-```./run_sample.sh [DATABASE] [INPUT] [OUTPUT]```
+```
+./run_sample.sh [DATABASE] [INPUT] [OUTPUT]
+```
 
 Three outputs will be visible following the completion of the run:
 
