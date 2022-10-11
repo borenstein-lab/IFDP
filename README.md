@@ -41,6 +41,7 @@ In order to run and explore the results, a user must specify the database he wis
 ```./run_sample.sh [DATABASE] [INPUT] [OUTPUT]```
 
 Three outputs will be visible following the completion of the run:
+
 [OUTPUT] - The diamond mapping output file
 <img width="998" alt="image" src="https://user-images.githubusercontent.com/33667593/195006139-0cdd5e34-288d-4a05-81ac-4f6606a75a00.png">
 
