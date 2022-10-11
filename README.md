@@ -37,10 +37,15 @@ diamond makedb --in ec_full.fasta.gz -d ec_full
 ./run_sample.sh ec_full.dmnd GCF_002075875.1_Bbif1898B_genomic.fna output
 ```
 
-5. run the pipeline using a simple one line command:
+5. Run the pipeline using a simple one line command:
 
 ```
 ./run_sample.sh [DATABASE] [INPUT] [OUTPUT]
+```
+6. If you would like to run the pipeline from any directory, add this line to your .bashrc file or run it before running the pipeline:
+
+```
+export PATH=$PATH:/home/labs/elinav/yotamco/IFDP2/
 ```
 
 ### Tutorial output and testing
