@@ -29,7 +29,7 @@ git clone https://github.com/borenstein-lab/IFDP.git
 
 ```
 gunzip ec_full.fasta.gz;
-diamond makedb --in ec_full.fasta.gz -d ec_full
+diamond makedb --in ec_full.fasta -d ec_full
 ```
 4.Test the installation by running this example:
 
